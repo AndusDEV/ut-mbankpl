@@ -1,0 +1,15 @@
+{
+    "name": "mbank-pl.andus",
+    "description": "A simple (unofficial) webapp for mBank Poland",
+    "architecture": "@CLICK_ARCH@",
+    "title": "mBank PL",
+    "hooks": {
+        "mbank-pl": {
+            "apparmor": "mbank-pl.apparmor",
+            "desktop":  "mbank-pl.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Andus <support@andus.dev>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
